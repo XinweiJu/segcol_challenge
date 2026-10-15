@@ -1,0 +1,16 @@
+/* Keep the showcase and section content aligned to the same readable width. */
+.hero {
+  width: min(960px, calc(100% - 40px));
+  min-height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-visual { min-height: 540px; }
+.section > * { max-width: 960px; }
+.dataset-figure-static { max-width: 960px; }
+.partner-grid { max-width: 960px; }
+
+@media (max-width: 760px) {
+  .hero { width: 100%; }
+}
